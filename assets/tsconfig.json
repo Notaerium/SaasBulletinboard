@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "jsx": "react",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowSyntheticDefaultImports": true
+    },
+    "compileOnSave": false,
+    "exclude": [
+      "node_modules"
+    ]
+  }

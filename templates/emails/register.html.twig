@@ -1,0 +1,7 @@
+<h1>Hello {{user.firstname}} on the company's noticeboard.</h1>
+<h2>Use this email to activate your account!</h2>
+<p>You just signed up to our service and you now have to verify your email address if you wish to participate</p>
+<p>Click on the following link to verify your email address and activate your account :</p>
+<p> <a href="{{absolute_url(path('app_user_verify_user', {token: token}))}}">Click Here</a></p>
+
+<p>This link will expire in 3 hours<p>

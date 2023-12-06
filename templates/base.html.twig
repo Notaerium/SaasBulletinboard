@@ -1,0 +1,27 @@
+<!--           By Vinh PARNEIX              -->
+<!--      https://github.com/Notaerium      -->
+<!--     On demonstration purpose only.     -->
+<!-- Made with Symfony 6.3 and Reactjs 18.2 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+        <link rel="short icon" type="image/x-icon" href="icons/favicon.ico" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('BSCSS') }}
+            {{ encore_entry_link_tags('styles') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('BSJS') }}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>

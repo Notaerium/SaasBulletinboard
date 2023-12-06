@@ -1,0 +1,31 @@
+body {
+    background-color: #cdaa72;
+    overflow-x: hidden !important
+} 
+.custom-card-titles {
+    font-size: 1em;
+}
+.custom-card-tags {
+    font-size: 0.7em;
+}
+.fontSize-08{
+    font-size: 0.8em;
+}
+.card{
+    width: 15rem;
+    min-width: 250px;
+    height: 18rem;
+    min-height: 300px;
+}
+.card:hover{
+    border: black;
+    box-shadow: 10px 5px 5px #65410d;
+}
+.on-top{
+    position: absolute;
+    z-index: 3!important;
+}
+.on-bot{
+    position: absolute;
+    z-index: 1!important;
+}
