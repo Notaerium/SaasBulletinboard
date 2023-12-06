@@ -1,0 +1,10 @@
+{
+  "build/app.js": "/build/app.js",
+  "build/BSJS.js": "/build/BSJS.js",
+  "build/styles.css": "/build/styles.css",
+  "build/BSCSS.css": "/build/BSCSS.css",
+  "build/runtime.js": "/build/runtime.js",
+  "build/vendors-node_modules_core-js_internals_array-sort_js-node_modules_core-js_internals_define-bu-587085.js": "/build/vendors-node_modules_core-js_internals_array-sort_js-node_modules_core-js_internals_define-bu-587085.js",
+  "build/vendors-node_modules_core-js_modules_es_array_every_js-node_modules_core-js_modules_es_array_-3e8585.js": "/build/vendors-node_modules_core-js_modules_es_array_every_js-node_modules_core-js_modules_es_array_-3e8585.js",
+  "build/vendors-node_modules_tinymce_tinymce-react_lib_es2015_main_ts_index_js-node_modules_react-dom-2274f0.js": "/build/vendors-node_modules_tinymce_tinymce-react_lib_es2015_main_ts_index_js-node_modules_react-dom-2274f0.js"
+}
